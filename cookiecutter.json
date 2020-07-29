@@ -6,6 +6,6 @@
   "java_class_name": "Chapter2Function",
   "java_handler_method_name": "handleRequest",
   "maven_group_id": "fr.simplex-software.aws.lambda",
-  "maven_artifact_id": "chapter2_function",
+  "maven_artifact_id": "chapter2-function",
   "maven_version": "1.0.0-SNAPSHOT"
 }
