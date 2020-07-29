@@ -1,8 +1,8 @@
 package book;
 
-public class {{ java_class_name }} 
+public class {{ cookiecutter.java_class_name }} 
 {
-  public String {{ java_handler_method_name }} (String s) 
+  public String {{ cookiecutter.java_handler_method_name }} (String s) 
   {
     return "Hello, " + s;
   }
