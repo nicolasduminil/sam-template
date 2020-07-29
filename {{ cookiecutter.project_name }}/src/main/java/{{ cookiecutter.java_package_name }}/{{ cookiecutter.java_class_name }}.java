@@ -1,4 +1,4 @@
-package book;
+package {{ cookiecutter.java_package_name }};
 
 public class {{ cookiecutter.java_class_name }} 
 {
