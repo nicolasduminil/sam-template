@@ -2,7 +2,10 @@
 {
   "project_name": "chapter2-function",
   "aws_lambda_resource_name": "Chapter2Resource",
-  "java_package_name" : "fr.simplex_software.aws.lambda.functions",
-  "java_class_name" : "Chapter2Function",
-  "java_handler_method_name" : "handleRequest"
+  "java_package_name": "fr.simplex_software.aws.lambda.functions",
+  "java_class_name": "Chapter2Function",
+  "java_handler_method_name": "handleRequest",
+  "maven_group_id": "fr.simplex-software.aws.lambda",
+  "maven_artifact_id": "chapter2_function",
+  "maven_version": "1.0.0-SNAPSHOT"
 }
