@@ -26,7 +26,7 @@
           </execution>
         </executions>
         <configuration>
-          <finalName>{{ cookiecutter.maven_artifact_id }}.jar</finalName>
+          <finalName>{{ cookiecutter.maven_artifact_id }}</finalName>
         </configuration>
       </plugin>
     </plugins>
