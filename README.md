@@ -7,5 +7,5 @@ Pour des détails sur SAM CLI, voir https://docs.aws.amazon.com/serverless-appli
 Pour générer un nouveau projet à base de ce template exécutez la commande suivante:
 
 ```
-$ sam init --location https://github.com/nicolasduminil/aws-lambda
+$ sam init --location https://github.com/nicolasduminil/sam-template
 ```
