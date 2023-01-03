@@ -1,5 +1,8 @@
 package {{ cookiecutter.java_package_name }};
 
+import java.util.Map;
+import java.util.stream.Collectors;
+
 public class {{ cookiecutter.java_class_name }} 
 {
   private static String message = System.getenv("message");
