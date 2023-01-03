@@ -8,5 +8,9 @@
   "maven_group_id": "fr.simplex-software.aws.lambda",
   "maven_artifact_id": "my-aws-function",
   "maven_version": "1.0.0-SNAPSHOT",
-  "function_name": "AwsLambdaTestFunction"
+  "function_name": "AwsLambdaTestFunction",
+  "architecture": ["arm64", "x86_64"],
+  "message": "Hello Dude !",
+  "timeout": 10,
+  "tracing": ["Active", "Passthrough"]  
 }
