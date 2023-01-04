@@ -6,13 +6,7 @@ import java.util.logging.Logger;
 
 public class {{ cookiecutter.java_class_name }} 
 {
-  private static String message = System.getenv("message");
-  private static Logger log = Logger.getLogger({{ cookiecutter.java_class_name }}.class.getName());
-
-  public {{ cookiecutter.java_class_name }}() 
-  {
-    log.info("*** AwsLambdaSimple: Have initialized with environment: " + message);
-  }
+   private static Logger log = Logger.getLogger({{ cookiecutter.java_class_name }}.class.getName());
 
   public String {{ cookiecutter.java_handler_method_name }} (Map<String, String> event) 
   {
