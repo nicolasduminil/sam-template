@@ -10,7 +10,7 @@
   "maven_version": "1.0.0-SNAPSHOT",
   "function_name": "AwsLambdaTestFunction",
   "architecture": ["arm64", "x86_64"],
-  "message": "Hello Dude !",
+  "message": "Hello,Dude !",
   "timeout": 10,
   "tracing": ["Active", "Passthrough"]  
 }
