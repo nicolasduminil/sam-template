@@ -14,8 +14,5 @@ Resources:
       MemorySize: 128
       Handler: {{ cookiecutter.java_package_name }}.{{ cookiecutter.java_class_name }}::{{ cookiecutter.java_handler_method_name }}
       CodeUri: target/{{ cookiecutter.project_name }}.jar
-      Environment:
-        Variables:
-          message: {{ cookiecutter.message }}
       Timeout: {{ cookiecutter.timeout }}
       Tracing: {{ cookiecutter.tracing }}
