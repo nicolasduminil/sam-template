@@ -11,6 +11,6 @@ public class {{ cookiecutter.java_class_name }}
   public String {{ cookiecutter.java_handler_method_name }} (Map<String, String> event) 
   {
     log.info("*** AwsLambdaSimple.handleRequest: Have received: " + event);
-    return event.entrySet().stream().map(e -> e.getKey() + "->" + e.getValue()).collect(Collectors.joining(","));
+    return event.entrySet().stream().map(e -> e.getKey() + " " + e.getValue()).collect(Collectors.joining());
   }
 }
